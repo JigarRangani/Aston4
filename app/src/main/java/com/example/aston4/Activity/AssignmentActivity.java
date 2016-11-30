@@ -61,6 +61,9 @@ public class AssignmentActivity extends Fragment {
         subject = new Subject("Compiler Design",14,10);
         subjectList.add(subject);
 
+        subject = new Subject("Computer Design",14,10);
+        subjectList.add(subject);
+
         adapter.notifyDataSetChanged();
     }
 
